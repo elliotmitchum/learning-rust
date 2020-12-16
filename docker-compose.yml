@@ -1,0 +1,7 @@
+version: "2"
+services:
+  rust:
+    image: "rust:1.31"
+    working_dir: "/usr/src"
+    volumes:
+      - ".:/usr/src"
