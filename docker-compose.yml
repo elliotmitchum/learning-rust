@@ -4,5 +4,7 @@ services:
     user: 1000:1000
     image: "rust:1.31"
     working_dir: "/usr/src"
+    environment:
+      USER: "usr"
     volumes:
       - ".:/usr/src"
