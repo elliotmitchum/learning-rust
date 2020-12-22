@@ -8,3 +8,4 @@ services:
       USER: "usr"
     volumes:
       - ".:/usr/src"
+      - ".docker/rust/registry:/usr/local/cargo/registry"
